@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/authorNameReviewListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textSize="@dimen/text_size_16sp" />
+
+    <TextView
+        android:id="@+id/reviewMovieReviewListItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:maxLines="4"
+        android:scrollbars="vertical"
+        android:textSize="@dimen/text_size_20sp" />
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!--TODO: check shadow-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/movieListItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/margin_20dp">
+
+            <ImageView
+                android:id="@+id/movieImageListItem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_250dp"
+                android:scaleType="centerCrop"
+                android:src="@color/black"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/movieTitleListItem"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_20sp"
+                app:layout_constraintEnd_toStartOf="@id/movieFavoriteListItem"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/movieImageListItem" />
+
+            <!--TODO:som lib about r8-->
+            <TextView
+                android:id="@+id/movieRatingListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:textSize="@dimen/text_size_20sp"
+                app:layout_constraintStart_toStartOf="@id/movieTitleListItem"
+                app:layout_constraintTop_toBottomOf="@id/movieTitleListItem" />
+
+            <TextView
+                android:id="@+id/movieReleaseDateListItem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_30dp"
+                android:textSize="@dimen/text_size_16sp"
+                app:layout_constraintBottom_toBottomOf="@id/movieRatingListItem"
+                app:layout_constraintStart_toEndOf="@id/movieRatingListItem" />
+
+            <ImageView
+                android:id="@+id/movieFavoriteListItem"
+                android:layout_width="@dimen/width_50dp"
+                android:layout_height="@dimen/height_50dp"
+                android:layout_marginEnd="@dimen/margin_20dp"
+                android:src="@drawable/ic_round_favorite_border_24"
+                app:layout_constraintBottom_toBottomOf="@id/movieRatingListItem"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/movieTitleListItem" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

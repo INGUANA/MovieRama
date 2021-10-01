@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRama/app/src/main/res/layout/base_activity.xml" value="0.21197916666666666" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRama/app/src/main/res/layout/home_screen_activity.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRama/app/src/main/res/layout/movie_details_fragment.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRama/app/src/main/res/layout/popular_movies_fragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/drawable/ic_baseline_mood_bad_24.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/drawable/ic_round_favorite_border_24.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/base_activity.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/exhausted_result_recyclerview_list_item.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/home_screen_activity.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/image_carousel_list_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/movie_details_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/movie_recyclerview_list_item.xml" value="0.33" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/popular_movies_fragment.xml" value="0.18" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/progress_bar_recyclerview_layout.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Iraklis Inguana/AndroidStudioProjects/MovieRamaIraklis/app/src/main/res/layout/review_recyclerview_list_item.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

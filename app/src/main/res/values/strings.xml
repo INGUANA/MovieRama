@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MovieRama</string>
+
+    <string name="search_movie_rama">Search MovieRama</string>
+
+    <string name="label_description">DESCRIPTION</string>
+    <string name="label_director">DIRECTOR</string>
+    <string name="label_cast">CAST</string>
+    <string name="label_similar_movies">SIMILAR MOVIES</string>
+    <string name="label_reviews">REVIEWS</string>
+    <string name="label_no_more_movies">No more movies…</string>
+
+
+</resources>
